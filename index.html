@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Image Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 class="title">Interactive Image Gallery</h1>
+  <div class="gallery">
+    <img src="images/nature1.jpg" alt="Nature 1" class="gallery-img">
+    <img src="images/animal1.jpg" alt="Animal 1" class="gallery-img">
+    <img src="images/city1.jpg" alt="City 1" class="gallery-img">
+    <img src="images/city2.jpg" alt="City 2" class="gallery-img">
+    <img src="images/abstract1.jpg" alt="Abstract 1" class="gallery-img">
+    <img src="images/animal2.jpg" alt="Animal 2" class="gallery-img">
+    <img src="images/space1.jpg" alt="Space 1" class="gallery-img">
+    <img src="images/vintage1.jpg" alt="Vintage 1" class="gallery-img">
+    <img src="images/general1.jpg" alt="General 1" class="gallery-img">
+    <img src="images/general2.jpg" alt="General 2" class="gallery-img">
+  </div>
+  
+
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+    <div class="controls">
+      <span id="prev">&#10094;</span>
+      <span id="next">&#10095;</span>
+    </div>
+    <div id="zoom-controls">
+      <button id="zoom-in">Zoom In</button>
+      <button id="zoom-out">Zoom Out</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
